@@ -19,6 +19,7 @@ Problem Statement: A school is looking to improve its passing rates and the solu
 
 
 ### Files for Milestone 1 Check ###
+- `cleaning_run.log ` - text record of what happened when `clean_data.py` ran.
 - `cleaned` - A folder containing all the cleaned datasets once `clean_data.py` has been run
 - `clean_data.py` — Loads the original datasets, fixes formatting and inconsistencies, handles missing values, removes duplicates, and saves cleaned datasets. Prints row counts and reasons for each cleaning step.
 - `cleaning_run.log` — Saved output from the cleaning script showing each step, row counts before and after, and reasons for changes.
