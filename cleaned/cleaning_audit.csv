@@ -1,0 +1,105 @@
+file,step,rows_before,rows_after,affected_values,reason
+schools,load,24,24,0,"Loaded schools.csv; sample exports are overlapping previews, excluded."
+schools,text and missing markers,24,24,0,"Trim whitespace, collapse repeated spaces, standardize explicit missing markers."
+schools,categories,24,24,0,"Normalize category case; unrecognized labels become missing, never guessed."
+schools,types and ranges,24,24,0,Parse ISO dates and numeric fields; invalid or out-of-range values become missing.
+schools,validate school_code,24,24,0,Malformed identifier becomes missing; preserve identifiers as text.
+schools,exact duplicates,24,24,0,Keep one copy of identical normalized rows.
+schools,quarantine,24,24,0,Missing or invalid natural key.
+schools,quarantine,24,24,0,Conflicting natural key: quarantine every conflicting version rather than choose arbitrarily.
+school_calendar,load,304,304,0,"Loaded school_calendar.csv; sample exports are overlapping previews, excluded."
+school_calendar,text and missing markers,304,304,388,"Trim whitespace, collapse repeated spaces, standardize explicit missing markers."
+school_calendar,categories,304,304,0,"Normalize category case; unrecognized labels become missing, never guessed."
+school_calendar,types and ranges,304,304,0,Parse ISO dates and numeric fields; invalid or out-of-range values become missing.
+school_calendar,exact duplicates,304,304,0,Keep one copy of identical normalized rows.
+school_calendar,quarantine,304,304,0,Missing or invalid natural key.
+school_calendar,quarantine,304,304,0,Conflicting natural key: quarantine every conflicting version rather than choose arbitrarily.
+students,load,40000,40000,0,"Loaded students.csv; sample exports are overlapping previews, excluded."
+students,text and missing markers,40000,40000,1203,"Trim whitespace, collapse repeated spaces, standardize explicit missing markers."
+students,categories,40000,40000,0,"Normalize category case; unrecognized labels become missing, never guessed."
+students,types and ranges,40000,40000,0,Parse ISO dates and numeric fields; invalid or out-of-range values become missing.
+students,validate student_id,40000,40000,0,Malformed identifier becomes missing; preserve identifiers as text.
+students,validate school_code,40000,40000,0,Malformed identifier becomes missing; preserve identifiers as text.
+students,exact duplicates,40000,40000,0,Keep one copy of identical normalized rows.
+students,quarantine,40000,40000,0,Missing or invalid natural key.
+students,quarantine,40000,40000,0,Conflicting natural key: quarantine every conflicting version rather than choose arbitrarily.
+courses,load,32,32,0,"Loaded courses.csv; sample exports are overlapping previews, excluded."
+courses,text and missing markers,32,32,0,"Trim whitespace, collapse repeated spaces, standardize explicit missing markers."
+courses,categories,32,32,0,"Normalize category case; unrecognized labels become missing, never guessed."
+courses,types and ranges,32,32,0,Parse ISO dates and numeric fields; invalid or out-of-range values become missing.
+courses,exact duplicates,32,32,0,Keep one copy of identical normalized rows.
+courses,quarantine,32,32,0,Missing or invalid natural key.
+courses,quarantine,32,32,0,Conflicting natural key: quarantine every conflicting version rather than choose arbitrarily.
+sections,load,9651,9651,0,"Loaded sections.csv; sample exports are overlapping previews, excluded."
+sections,text and missing markers,9651,9651,0,"Trim whitespace, collapse repeated spaces, standardize explicit missing markers."
+sections,categories,9651,9651,0,"Normalize category case; unrecognized labels become missing, never guessed."
+sections,types and ranges,9651,9651,0,Parse ISO dates and numeric fields; invalid or out-of-range values become missing.
+sections,validate school_code,9651,9651,0,Malformed identifier becomes missing; preserve identifiers as text.
+sections,validate teacher_id,9651,9651,0,Malformed identifier becomes missing; preserve identifiers as text.
+sections,exact duplicates,9651,9651,0,Keep one copy of identical normalized rows.
+sections,quarantine,9651,9651,0,Missing or invalid natural key.
+sections,quarantine,9651,9651,0,Conflicting natural key: quarantine every conflicting version rather than choose arbitrarily.
+term_grades,load,720000,720000,0,"Loaded term_grades.csv; sample exports are overlapping previews, excluded."
+term_grades,text and missing markers,720000,720000,0,"Trim whitespace, collapse repeated spaces, standardize explicit missing markers."
+term_grades,categories,720000,720000,0,"Normalize category case; unrecognized labels become missing, never guessed."
+term_grades,absence formatting,720000,720000,11030,Remove day/days suffix from counts; preserve the recorded integer.
+term_grades,types and ranges,720000,720000,0,Parse ISO dates and numeric fields; invalid or out-of-range values become missing.
+term_grades,validate student_id,720000,720000,0,Malformed identifier becomes missing; preserve identifiers as text.
+term_grades,validate school_code,720000,720000,0,Malformed identifier becomes missing; preserve identifiers as text.
+term_grades,exact duplicates,720000,720000,0,Keep one copy of identical normalized rows.
+term_grades,quarantine,720000,720000,0,Missing or invalid natural key.
+term_grades,quarantine,720000,720000,0,Conflicting natural key: quarantine every conflicting version rather than choose arbitrarily.
+term_grades,grade scale,720000,720000,0,Term 1: F fails; terms 2–3: percent <60 fails. No invented letter-grade percentages.
+tutors,load,614,614,0,"Loaded tutors.csv; sample exports are overlapping previews, excluded."
+tutors,text and missing markers,614,614,0,"Trim whitespace, collapse repeated spaces, standardize explicit missing markers."
+tutors,categories,614,614,0,"Normalize category case; unrecognized labels become missing, never guessed."
+tutors,types and ranges,614,614,0,Parse ISO dates and numeric fields; invalid or out-of-range values become missing.
+tutors,validate school_code,614,614,0,Malformed identifier becomes missing; preserve identifiers as text.
+tutors,validate tutor_id,614,614,0,Malformed identifier becomes missing; preserve identifiers as text.
+tutors,exact duplicates,614,614,0,Keep one copy of identical normalized rows.
+tutors,quarantine,614,614,0,Missing or invalid natural key.
+tutors,quarantine,614,614,0,Conflicting natural key: quarantine every conflicting version rather than choose arbitrarily.
+tutoring_referrals,load,14917,14917,0,"Loaded tutoring_referrals.csv; sample exports are overlapping previews, excluded."
+tutoring_referrals,text and missing markers,14917,14917,3464,"Trim whitespace, collapse repeated spaces, standardize explicit missing markers."
+tutoring_referrals,categories,14917,14917,0,"Normalize category case; unrecognized labels become missing, never guessed."
+tutoring_referrals,types and ranges,14917,14917,0,Parse ISO dates and numeric fields; invalid or out-of-range values become missing.
+tutoring_referrals,validate student_id,14917,14917,0,Malformed identifier becomes missing; preserve identifiers as text.
+tutoring_referrals,validate school_code,14917,14917,0,Malformed identifier becomes missing; preserve identifiers as text.
+tutoring_referrals,validate tutor_id,14917,14917,0,Malformed identifier becomes missing; preserve identifiers as text.
+tutoring_referrals,validate referring_staff_id,14917,14917,0,Malformed identifier becomes missing; preserve identifiers as text.
+tutoring_referrals,exact duplicates,14917,14917,0,Keep one copy of identical normalized rows.
+tutoring_referrals,quarantine,14917,14917,0,Missing or invalid natural key.
+tutoring_referrals,quarantine,14917,14917,0,Conflicting natural key: quarantine every conflicting version rather than choose arbitrarily.
+tutoring_sessions,load,415850,415850,0,"Loaded tutoring_sessions.csv; sample exports are overlapping previews, excluded."
+tutoring_sessions,text and missing markers,415850,415850,20761,"Trim whitespace, collapse repeated spaces, standardize explicit missing markers."
+tutoring_sessions,categories,415850,415850,0,"Normalize category case; unrecognized labels become missing, never guessed."
+tutoring_sessions,types and ranges,415850,415850,34,Parse ISO dates and numeric fields; invalid or out-of-range values become missing.
+tutoring_sessions,validate student_id,415850,415850,0,Malformed identifier becomes missing; preserve identifiers as text.
+tutoring_sessions,validate tutor_id,415850,415850,0,Malformed identifier becomes missing; preserve identifiers as text.
+tutoring_sessions,exact duplicates,415850,413370,2480,Keep one copy of identical normalized rows.
+tutoring_sessions,quarantine,413370,413370,0,Missing or invalid natural key.
+tutoring_sessions,quarantine,413370,413370,0,Conflicting natural key: quarantine every conflicting version rather than choose arbitrarily.
+tutoring_sessions,attendance minutes,413370,413370,42,Attendance is the source for documented 45/0 minute rule; flag repairs.
+students,quarantine,40000,40000,0,Missing or unknown school_code reference to schools.
+sections,quarantine,9651,9651,0,Missing or unknown school_code reference to schools.
+sections,quarantine,9651,9651,0,Missing or unknown course_code reference to courses.
+term_grades,quarantine,720000,720000,0,Missing or unknown school_code reference to schools.
+term_grades,quarantine,720000,720000,0,Missing or unknown student_id reference to students.
+term_grades,quarantine,720000,720000,0,Missing or unknown course_code reference to courses.
+term_grades,quarantine,720000,720000,0,Missing or unknown section_id reference to sections.
+tutors,quarantine,614,614,0,Missing or unknown school_code reference to schools.
+tutoring_referrals,quarantine,14917,14917,0,Missing or unknown school_code reference to schools.
+tutoring_referrals,quarantine,14917,14917,0,Missing or unknown student_id reference to students.
+tutoring_referrals,quarantine,14917,14917,0,Missing or unknown tutor_id reference to tutors.
+tutoring_sessions,quarantine,413370,413370,0,Missing or unknown student_id reference to students.
+tutoring_sessions,quarantine,413370,413370,0,Missing or unknown tutor_id reference to tutors.
+tutoring_sessions,quarantine,413370,413370,0,"Session violates calendar, referral, tutor or weekly schedule rules."
+schools,save / missing policy,24,24,0,Keep missing optional values; exclude unknown outcomes only from relevant analyses. No GPA/outcome imputation.
+school_calendar,save / missing policy,304,304,0,Keep missing optional values; exclude unknown outcomes only from relevant analyses. No GPA/outcome imputation.
+students,save / missing policy,40000,40000,0,Keep missing optional values; exclude unknown outcomes only from relevant analyses. No GPA/outcome imputation.
+courses,save / missing policy,32,32,0,Keep missing optional values; exclude unknown outcomes only from relevant analyses. No GPA/outcome imputation.
+sections,save / missing policy,9651,9651,0,Keep missing optional values; exclude unknown outcomes only from relevant analyses. No GPA/outcome imputation.
+term_grades,save / missing policy,720000,720000,0,Keep missing optional values; exclude unknown outcomes only from relevant analyses. No GPA/outcome imputation.
+tutors,save / missing policy,614,614,0,Keep missing optional values; exclude unknown outcomes only from relevant analyses. No GPA/outcome imputation.
+tutoring_referrals,save / missing policy,14917,14917,0,Keep missing optional values; exclude unknown outcomes only from relevant analyses. No GPA/outcome imputation.
+tutoring_sessions,save / missing policy,413370,413370,0,Keep missing optional values; exclude unknown outcomes only from relevant analyses. No GPA/outcome imputation.

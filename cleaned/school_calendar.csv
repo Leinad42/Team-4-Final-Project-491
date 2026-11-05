@@ -1,0 +1,305 @@
+calendar_date,day_of_week,day_type,event,term
+2025-08-01,Friday,teacher_workday,Teacher planning days,
+2025-08-02,Saturday,weekend,,
+2025-08-03,Sunday,weekend,,
+2025-08-04,Monday,teacher_workday,Teacher planning days,
+2025-08-05,Tuesday,teacher_workday,Teacher planning days,
+2025-08-06,Wednesday,instructional,First day for students,1
+2025-08-07,Thursday,instructional,,1
+2025-08-08,Friday,instructional,,1
+2025-08-09,Saturday,weekend,,
+2025-08-10,Sunday,weekend,,
+2025-08-11,Monday,instructional,,1
+2025-08-12,Tuesday,instructional,,1
+2025-08-13,Wednesday,instructional,,1
+2025-08-14,Thursday,instructional,,1
+2025-08-15,Friday,instructional,,1
+2025-08-16,Saturday,weekend,,
+2025-08-17,Sunday,weekend,,
+2025-08-18,Monday,instructional,,1
+2025-08-19,Tuesday,instructional,,1
+2025-08-20,Wednesday,instructional,,1
+2025-08-21,Thursday,instructional,,1
+2025-08-22,Friday,instructional,,1
+2025-08-23,Saturday,weekend,,
+2025-08-24,Sunday,weekend,,
+2025-08-25,Monday,instructional,,1
+2025-08-26,Tuesday,instructional,,1
+2025-08-27,Wednesday,instructional,,1
+2025-08-28,Thursday,instructional,,1
+2025-08-29,Friday,instructional,,1
+2025-08-30,Saturday,weekend,,
+2025-08-31,Sunday,weekend,,
+2025-09-01,Monday,holiday,Labor Day,
+2025-09-02,Tuesday,instructional,,1
+2025-09-03,Wednesday,instructional,,1
+2025-09-04,Thursday,instructional,,1
+2025-09-05,Friday,instructional,,1
+2025-09-06,Saturday,weekend,,
+2025-09-07,Sunday,weekend,,
+2025-09-08,Monday,instructional,,1
+2025-09-09,Tuesday,instructional,,1
+2025-09-10,Wednesday,instructional,,1
+2025-09-11,Thursday,instructional,,1
+2025-09-12,Friday,instructional,,1
+2025-09-13,Saturday,weekend,,
+2025-09-14,Sunday,weekend,,
+2025-09-15,Monday,instructional,,1
+2025-09-16,Tuesday,instructional,,1
+2025-09-17,Wednesday,instructional,,1
+2025-09-18,Thursday,instructional,,1
+2025-09-19,Friday,instructional,,1
+2025-09-20,Saturday,weekend,,
+2025-09-21,Sunday,weekend,,
+2025-09-22,Monday,instructional,,1
+2025-09-23,Tuesday,instructional,,1
+2025-09-24,Wednesday,instructional,,1
+2025-09-25,Thursday,instructional,,1
+2025-09-26,Friday,instructional,,1
+2025-09-27,Saturday,weekend,,
+2025-09-28,Sunday,weekend,,
+2025-09-29,Monday,instructional,,1
+2025-09-30,Tuesday,instructional,,1
+2025-10-01,Wednesday,instructional,,1
+2025-10-02,Thursday,instructional,,1
+2025-10-03,Friday,instructional,,1
+2025-10-04,Saturday,weekend,,
+2025-10-05,Sunday,weekend,,
+2025-10-06,Monday,instructional,,1
+2025-10-07,Tuesday,instructional,,1
+2025-10-08,Wednesday,instructional,,1
+2025-10-09,Thursday,instructional,,1
+2025-10-10,Friday,break,Fall break,
+2025-10-11,Saturday,weekend,,
+2025-10-12,Sunday,weekend,,
+2025-10-13,Monday,break,Fall break,
+2025-10-14,Tuesday,instructional,,1
+2025-10-15,Wednesday,instructional,,1
+2025-10-16,Thursday,instructional,,1
+2025-10-17,Friday,instructional,,1
+2025-10-18,Saturday,weekend,,
+2025-10-19,Sunday,weekend,,
+2025-10-20,Monday,instructional,,1
+2025-10-21,Tuesday,instructional,,1
+2025-10-22,Wednesday,instructional,,1
+2025-10-23,Thursday,instructional,,1
+2025-10-24,Friday,instructional,,1
+2025-10-25,Saturday,weekend,,
+2025-10-26,Sunday,weekend,,
+2025-10-27,Monday,instructional,,1
+2025-10-28,Tuesday,instructional,,1
+2025-10-29,Wednesday,exam,Term 1 final exams,1
+2025-10-30,Thursday,exam,Term 1 final exams,1
+2025-10-31,Friday,exam,Term 1 final exams,1
+2025-11-01,Saturday,weekend,,
+2025-11-02,Sunday,weekend,,
+2025-11-03,Monday,teacher_workday,Teacher workday (grading),
+2025-11-04,Tuesday,instructional,,2
+2025-11-05,Wednesday,instructional,,2
+2025-11-06,Thursday,instructional,,2
+2025-11-07,Friday,instructional,,2
+2025-11-08,Saturday,weekend,,
+2025-11-09,Sunday,weekend,,
+2025-11-10,Monday,instructional,,2
+2025-11-11,Tuesday,instructional,,2
+2025-11-12,Wednesday,instructional,,2
+2025-11-13,Thursday,instructional,,2
+2025-11-14,Friday,instructional,,2
+2025-11-15,Saturday,weekend,,
+2025-11-16,Sunday,weekend,,
+2025-11-17,Monday,instructional,,2
+2025-11-18,Tuesday,instructional,,2
+2025-11-19,Wednesday,instructional,,2
+2025-11-20,Thursday,instructional,,2
+2025-11-21,Friday,instructional,,2
+2025-11-22,Saturday,weekend,,
+2025-11-23,Sunday,weekend,,
+2025-11-24,Monday,break,Thanksgiving break,
+2025-11-25,Tuesday,break,Thanksgiving break,
+2025-11-26,Wednesday,break,Thanksgiving break,
+2025-11-27,Thursday,break,Thanksgiving break,
+2025-11-28,Friday,break,Thanksgiving break,
+2025-11-29,Saturday,weekend,,
+2025-11-30,Sunday,weekend,,
+2025-12-01,Monday,instructional,,2
+2025-12-02,Tuesday,instructional,,2
+2025-12-03,Wednesday,instructional,,2
+2025-12-04,Thursday,instructional,,2
+2025-12-05,Friday,instructional,,2
+2025-12-06,Saturday,weekend,,
+2025-12-07,Sunday,weekend,,
+2025-12-08,Monday,instructional,,2
+2025-12-09,Tuesday,instructional,,2
+2025-12-10,Wednesday,instructional,,2
+2025-12-11,Thursday,instructional,,2
+2025-12-12,Friday,instructional,,2
+2025-12-13,Saturday,weekend,,
+2025-12-14,Sunday,weekend,,
+2025-12-15,Monday,instructional,,2
+2025-12-16,Tuesday,instructional,,2
+2025-12-17,Wednesday,instructional,,2
+2025-12-18,Thursday,instructional,,2
+2025-12-19,Friday,instructional,,2
+2025-12-20,Saturday,weekend,,
+2025-12-21,Sunday,weekend,,
+2025-12-22,Monday,break,Winter break,
+2025-12-23,Tuesday,break,Winter break,
+2025-12-24,Wednesday,break,Winter break,
+2025-12-25,Thursday,break,Winter break,
+2025-12-26,Friday,break,Winter break,
+2025-12-27,Saturday,weekend,,
+2025-12-28,Sunday,weekend,,
+2025-12-29,Monday,break,Winter break,
+2025-12-30,Tuesday,break,Winter break,
+2025-12-31,Wednesday,break,Winter break,
+2026-01-01,Thursday,break,Winter break,
+2026-01-02,Friday,break,Winter break,
+2026-01-03,Saturday,weekend,,
+2026-01-04,Sunday,weekend,,
+2026-01-05,Monday,teacher_workday,Teacher workday,
+2026-01-06,Tuesday,instructional,,2
+2026-01-07,Wednesday,instructional,,2
+2026-01-08,Thursday,instructional,,2
+2026-01-09,Friday,instructional,,2
+2026-01-10,Saturday,weekend,,
+2026-01-11,Sunday,weekend,,
+2026-01-12,Monday,instructional,,2
+2026-01-13,Tuesday,instructional,,2
+2026-01-14,Wednesday,instructional,,2
+2026-01-15,Thursday,instructional,,2
+2026-01-16,Friday,instructional,,2
+2026-01-17,Saturday,weekend,,
+2026-01-18,Sunday,weekend,,
+2026-01-19,Monday,holiday,Martin Luther King Jr. Day,
+2026-01-20,Tuesday,instructional,,2
+2026-01-21,Wednesday,instructional,,2
+2026-01-22,Thursday,instructional,,2
+2026-01-23,Friday,instructional,,2
+2026-01-24,Saturday,weekend,,
+2026-01-25,Sunday,weekend,,
+2026-01-26,Monday,instructional,,2
+2026-01-27,Tuesday,instructional,,2
+2026-01-28,Wednesday,instructional,,2
+2026-01-29,Thursday,instructional,,2
+2026-01-30,Friday,instructional,,2
+2026-01-31,Saturday,weekend,,
+2026-02-01,Sunday,weekend,,
+2026-02-02,Monday,instructional,,2
+2026-02-03,Tuesday,instructional,,2
+2026-02-04,Wednesday,instructional,,2
+2026-02-05,Thursday,instructional,,2
+2026-02-06,Friday,instructional,,2
+2026-02-07,Saturday,weekend,,
+2026-02-08,Sunday,weekend,,
+2026-02-09,Monday,instructional,,2
+2026-02-10,Tuesday,instructional,,2
+2026-02-11,Wednesday,exam,Term 2 final exams,2
+2026-02-12,Thursday,exam,Term 2 final exams,2
+2026-02-13,Friday,exam,Term 2 final exams,2
+2026-02-14,Saturday,weekend,,
+2026-02-15,Sunday,weekend,,
+2026-02-16,Monday,break,Presidents' Day / winter holiday,
+2026-02-17,Tuesday,break,Presidents' Day / winter holiday,
+2026-02-18,Wednesday,instructional,,3
+2026-02-19,Thursday,instructional,,3
+2026-02-20,Friday,instructional,,3
+2026-02-21,Saturday,weekend,,
+2026-02-22,Sunday,weekend,,
+2026-02-23,Monday,instructional,,3
+2026-02-24,Tuesday,instructional,,3
+2026-02-25,Wednesday,instructional,,3
+2026-02-26,Thursday,instructional,,3
+2026-02-27,Friday,instructional,,3
+2026-02-28,Saturday,weekend,,
+2026-03-01,Sunday,weekend,,
+2026-03-02,Monday,instructional,,3
+2026-03-03,Tuesday,instructional,,3
+2026-03-04,Wednesday,instructional,,3
+2026-03-05,Thursday,instructional,,3
+2026-03-06,Friday,instructional,,3
+2026-03-07,Saturday,weekend,,
+2026-03-08,Sunday,weekend,,
+2026-03-09,Monday,instructional,,3
+2026-03-10,Tuesday,instructional,,3
+2026-03-11,Wednesday,instructional,,3
+2026-03-12,Thursday,instructional,,3
+2026-03-13,Friday,instructional,,3
+2026-03-14,Saturday,weekend,,
+2026-03-15,Sunday,weekend,,
+2026-03-16,Monday,instructional,,3
+2026-03-17,Tuesday,instructional,,3
+2026-03-18,Wednesday,instructional,,3
+2026-03-19,Thursday,instructional,,3
+2026-03-20,Friday,instructional,,3
+2026-03-21,Saturday,weekend,,
+2026-03-22,Sunday,weekend,,
+2026-03-23,Monday,instructional,,3
+2026-03-24,Tuesday,instructional,,3
+2026-03-25,Wednesday,instructional,,3
+2026-03-26,Thursday,instructional,,3
+2026-03-27,Friday,instructional,,3
+2026-03-28,Saturday,weekend,,
+2026-03-29,Sunday,weekend,,
+2026-03-30,Monday,instructional,,3
+2026-03-31,Tuesday,instructional,,3
+2026-04-01,Wednesday,instructional,,3
+2026-04-02,Thursday,instructional,,3
+2026-04-03,Friday,holiday,Good Friday,
+2026-04-04,Saturday,weekend,,
+2026-04-05,Sunday,weekend,,
+2026-04-06,Monday,break,Spring break,
+2026-04-07,Tuesday,break,Spring break,
+2026-04-08,Wednesday,break,Spring break,
+2026-04-09,Thursday,break,Spring break,
+2026-04-10,Friday,break,Spring break,
+2026-04-11,Saturday,weekend,,
+2026-04-12,Sunday,weekend,,
+2026-04-13,Monday,instructional,,3
+2026-04-14,Tuesday,instructional,,3
+2026-04-15,Wednesday,instructional,,3
+2026-04-16,Thursday,instructional,,3
+2026-04-17,Friday,instructional,,3
+2026-04-18,Saturday,weekend,,
+2026-04-19,Sunday,weekend,,
+2026-04-20,Monday,instructional,,3
+2026-04-21,Tuesday,instructional,,3
+2026-04-22,Wednesday,instructional,,3
+2026-04-23,Thursday,instructional,,3
+2026-04-24,Friday,instructional,,3
+2026-04-25,Saturday,weekend,,
+2026-04-26,Sunday,weekend,,
+2026-04-27,Monday,instructional,,3
+2026-04-28,Tuesday,instructional,,3
+2026-04-29,Wednesday,instructional,,3
+2026-04-30,Thursday,instructional,,3
+2026-05-01,Friday,instructional,,3
+2026-05-02,Saturday,weekend,,
+2026-05-03,Sunday,weekend,,
+2026-05-04,Monday,instructional,,3
+2026-05-05,Tuesday,instructional,,3
+2026-05-06,Wednesday,instructional,,3
+2026-05-07,Thursday,instructional,,3
+2026-05-08,Friday,instructional,,3
+2026-05-09,Saturday,weekend,,
+2026-05-10,Sunday,weekend,,
+2026-05-11,Monday,instructional,,3
+2026-05-12,Tuesday,instructional,,3
+2026-05-13,Wednesday,instructional,,3
+2026-05-14,Thursday,instructional,,3
+2026-05-15,Friday,instructional,,3
+2026-05-16,Saturday,weekend,,
+2026-05-17,Sunday,weekend,,
+2026-05-18,Monday,instructional,,3
+2026-05-19,Tuesday,exam,Term 3 final exams,3
+2026-05-20,Wednesday,exam,Term 3 final exams,3
+2026-05-21,Thursday,exam,Term 3 final exams,3
+2026-05-22,Friday,summer,,
+2026-05-23,Saturday,weekend,,
+2026-05-24,Sunday,weekend,,
+2026-05-25,Monday,summer,,
+2026-05-26,Tuesday,summer,,
+2026-05-27,Wednesday,summer,,
+2026-05-28,Thursday,summer,,
+2026-05-29,Friday,summer,,
+2026-05-30,Saturday,weekend,,
+2026-05-31,Sunday,weekend,,
