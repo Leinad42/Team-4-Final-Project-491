@@ -27,6 +27,9 @@ Problem Statement: A school is looking to improve its passing rates and the solu
 - `make_notebook.py` — Generates the exploration notebook structure. Running it replaces the notebook and clears its saved outputs; it is not needed for normal analysis.
 - `students_cleaned.csv` — Cleaned student records used for analysis. Missing prior-year GPAs are preserved rather than filled with guessed values.
 
+
+
+
 ## AI Use Disclosure
 
 We used OpenAI Codex to generate the initial data-cleaning script,
