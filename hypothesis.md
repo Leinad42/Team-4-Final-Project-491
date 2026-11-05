@@ -1,4 +1,4 @@
-Based on the questions that we've created and from looking at the data sets we were given before and after cleaning, we have narrowed our specific problem further than the initial topic description did. This narrowing left us with the specific problem of seeing if tutoring was leading to higher fail rates or if other factors were playing a part. Based on this narrowed problem, we can up with two hypotheses to test this:
+Based on the questions that we've created and from looking at the data sets we were given before and after cleaning, we have narrowed our specific problem further than the initial topic description did. This narrowing left us with the specific problem of seeing if tutoring was leading to higher fail rates or if other factors were playing a part. Based on this narrowed problem, we came up with two hypotheses to test this:
 
 1. If students attend every tutoring session they are given, they will pass the class they are being tutored in
    - To test this, we will go through our data sets showing attendance and final grades for every student that attended tutoring for a class to see if those who attended the most actually passed their classes or not
