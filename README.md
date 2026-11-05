@@ -26,6 +26,7 @@ Problem Statement: A school is looking to improve its passing rates and the solu
 - `exploration.py` — Contains the calculations and plotting functions used by the exploration notebook. Keep this file alongside the notebook.
 - `make_notebook.py` — Generates the exploration notebook structure. Running it replaces the notebook and clears its saved outputs; it is not needed for normal analysis.
 - `students_cleaned.csv` — Cleaned student records used for analysis. Missing prior-year GPAs are preserved rather than filled with guessed values.
+- `hypothesis.md` — Contains our specific problem that we narrowed from our topic and the two hypotheses we will be testing along with how we will test them.
 
 
 
