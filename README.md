@@ -30,7 +30,8 @@ Problem Statement: A school is looking to improve its passing rates and the solu
 ## AI Use Disclosure
 
 We used OpenAI Codex to generate the initial data-cleaning script,
-exploration code, and notebook; execute and check the code.
+exploration code, and notebook; execute and check the code, assist
+with documentation, and interpreting exploratory results.
 
 The generated files include clean_data.py, exploration.py,
 exploration.ipynb, and make_notebook.py. Cleaning logs, cleaned datasets,
