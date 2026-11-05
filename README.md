@@ -19,7 +19,7 @@ Problem Statement: A school is looking to improve its passing rates and the solu
 
 
 ### Files for Milestone 1 Check ###
-
+- `cleaned` - A folder containing all the cleaned datasets once `clean_data.py` has been run
 - `clean_data.py` — Loads the original datasets, fixes formatting and inconsistencies, handles missing values, removes duplicates, and saves cleaned datasets. Prints row counts and reasons for each cleaning step.
 - `cleaning_run.log` — Saved output from the cleaning script showing each step, row counts before and after, and reasons for changes.
 - `exploration.ipynb` — Exploration notebook with summary statistics, visualizations, and interpretations. Compares failure rates between tutoring attendees and students with no recorded attendance, both overall and within prior-GPA groups.
