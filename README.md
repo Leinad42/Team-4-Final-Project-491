@@ -3,9 +3,28 @@
 Team Members: Nicholas Daniel, Joshua Ramachandran, William Powala
 Topic: Education: The Tutoring Paradox
 
-Files for Milestone 1 Check:
+Problem Statement: A school is looking to improve its passing rates and the solution was to implement a free tutoring program - students that counselors and parents are referred to the program and the students are free to choose whether or not to participate. While the expectation was that the mentorship improved student grades, the reality was that students were more likely to fail the class they were mentored in. Should the school cut the program’s funding?
 
-problem_questions_goals.markdown - Contains our interpretation or the problem statement along with 4 questions and the goals they seek to accomplish
+### Questions For Testing ###
+* Does a higher number of attended tutoring sessions correlate with grade improvement?
+  - Goal: Show correlation between time that students were tutored and their grades
+* Does being a bus-rider put a student at an advantage or disadvantage?
+  - Goal: Show the correlation between a student requiring a bus ride at EOD and grades resulting from tutoring.
+* Does a school’s economic disadvantage rate correlate with weaker grade improvements from tutoring?
+  - Goal: Show correlation between percentage of economically disadvantaged students in schools and the quality of tutoring they can afford
+* Does a large number of absences affect the benefit a student would receive from tutoring
+  - Goal: Show correlation between student’s attendance during tutoring and their grades
 
-Inputs and Graph.png - Our graph derived from the domain-expert inputs given with our topic
+
+
+
+### Files for Milestone 1 Check ###
+
+- `clean_data.py` — Loads the original datasets, fixes formatting and inconsistencies, handles missing values, removes duplicates, and saves cleaned datasets. Prints row counts and reasons for each cleaning step.
+- `cleaning_run.log` — Saved output from the cleaning script showing each step, row counts before and after, and reasons for changes.
+- `exploration.ipynb` — Exploration notebook with summary statistics, visualizations, and interpretations. Compares failure rates between tutoring attendees and students with no recorded attendance, both overall and within prior-GPA groups.
+- `exploration.py` — Contains the calculations and plotting functions used by the exploration notebook. Keep this file alongside the notebook.
+- `make_notebook.py` — Generates the exploration notebook structure. Running it replaces the notebook and clears its saved outputs; it is not needed for normal analysis.
+- `students_cleaned.csv` — Cleaned student records used for analysis. Missing prior-year GPAs are preserved rather than filled with guessed values.
+
 
