@@ -1,6 +1,19 @@
 Based on the questions that we've created and from looking at the data sets we were given before and after cleaning, we have narrowed our specific problem further than the initial topic description did. This narrowing left us with the specific problem of seeing if tutoring was leading to higher fail rates or if other factors were playing a part. Based on this narrowed problem, we came up with two hypotheses to test this:
 
-1. If students attend every tutoring session they are given, they will pass the class they are being tutored in
-   - To test this, we will go through our data sets showing attendance and final grades for every student that attended tutoring for a class to see if those who attended the most actually passed their classes or not
-2. If schools have a higher number of economically disadvantaged students, they will not be able to afford the best tutoring leading to less benefit for the students grades
-   - To test this, we will go through our data sets and look at schools with higher and lower percentages of economically disadvantaged students. We will then compare the GPAs and classes passed for students that attended      those schools to see if students at the more disadvantaged schools see less benefit with tutoring
+## Revised hypotheses (Milestone 2, November 9, 2026)
+
+These two hypotheses replace the originals preserved below. They test associations rather than establish that tutoring or transportation causes an outcome.
+
+### Hypothesis 1: Tutoring attendance and subsequent failure
+
+If referred students attend a higher proportion of their scheduled tutoring sessions before term 3, then they will have a lower term-3 failure rate in the tutored subject, when comparing students with similar prior achievement and referral timing.
+
+- Test plan: Use one student-subject record for each referred subject with at least one valid scheduled session before February 18, 2026. Calculate attendance proportion as recorded Present sessions divided by all valid scheduled sessions before that date. Report unknown attendance and assess sensitivity to its possible values rather than silently treating it as absence. Match term-3 course outcomes to the referred subject; failure means at least one observed grade below 60 in that subject. If there is no observed failure but a required grade is missing, retain an unknown outcome. Compare failure rates across attendance proportions while accounting for prior-year GPA, school, subject, and referral timing. Report sample sizes, adjusted associations, and uncertainty; keep missing GPA explicit. A flat or positive association would contradict the predicted direction.
+- Reason for revision: The original predicted that perfect attendance guarantees passing, whereas our question concerns an association between attendance and outcomes. Its test plan also mixed perfect attendance with attending the most sessions. Using an attendance proportion accounts for differences in scheduled opportunities, and using only attendance before term 3 keeps exposure before the outcome period. Prior achievement and referral timing help address differences between participants.
+
+### Hypothesis 2: Bus-rider status and tutoring attendance
+
+If referred students are bus riders, then they will attend a smaller proportion of their scheduled tutoring sessions than non-bus riders within the same school and with similar referral timing.
+
+- Test plan: Use the same student-subject population and pre-term-3 attendance definition as hypothesis 1. Compare attendance proportions for bus riders and non-bus riders while accounting for school, subject, and referral timing. Report group sizes, the adjusted difference, and uncertainty. Account for repeated subjects belonging to the same student when estimating uncertainty. An equal or higher attendance proportion among bus riders would contradict the predicted direction. Bus assignment is a proxy for a possible access barrier, not a direct measure of transportation availability.
+- Reason for revision: The original second hypothesis attributed weaker outcomes at disadvantaged schools to an inability to afford better tutoring. The supplied data contain neither tutoring budgets nor direct measures of tutoring quality, so that mechanism cannot be tested. The replacement addresses our existing bus-rider question using recorded bus status and session attendance. District input 6 provides a reason to investigate this possible barrier: tutoring occurs after school and there are no late buses. The predicted attendance difference has not been established by the existing descriptive failure-rate comparisons.
