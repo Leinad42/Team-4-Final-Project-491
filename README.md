@@ -15,8 +15,15 @@ Problem Statement: A school is looking to improve its passing rates and the solu
 * Does a large number of absences affect the benefit a student would receive from tutoring
   - Goal: Show correlation between student’s attendance during tutoring and their grades
 
-
-
+### Revised Questions for Testing ###
+* Among referred students, is a higher proportion of scheduled tutoring sessions attended associated with improved grades in the tutored subject?
+  - Goal: Examine the relationship between tutoring attendance and academic outcomes while accounting for prior achievement and referral timing.
+* Among referred students, do bus-riders attend a smaller proportion of scheduled tutoring sessions than non-bus riders?
+  - Goal: Investigate whether bus-rider status is associated with reduced tutoring attendance.
+* Does the relationship between tutoring attendance and subsequent grades differ across schools with different economic disadvantage rates?
+  - Goal: Examine differences across school contexts without assuming differences in tutoring funding or quality.
+* Among referred students with similar prior achievement and tutoring attendance, are higher course absences associated with higher subsequent failure rates?
+  - Goal: Examine whether missed class periods help explain academic outcomes separately from missed tutoring sessions.
 
 ### Files for Milestone 1 Check ###
 - `cleaning_run.log ` - text record of what happened when `clean_data.py` ran.
