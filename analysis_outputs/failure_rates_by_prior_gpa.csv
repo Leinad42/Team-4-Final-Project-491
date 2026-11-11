@@ -1,0 +1,11 @@
+gpa_band,tutoring,students,known_outcomes,failures,unknown_outcomes,failure_pct
+0–1,Attended,201,201,201,0,100.0
+0–1,No recorded attendance,3,3,3,0,100.0
+>1–2,Attended,3368,3368,3306,0,98.15914489311164
+>1–2,No recorded attendance,967,967,940,0,97.20785935884177
+>2–3,Attended,6149,6149,3985,0,64.8072857375183
+>2–3,No recorded attendance,12465,12465,6526,0,52.354592860008026
+>3–4,Attended,1151,1151,107,0,9.296264118158124
+>3–4,No recorded attendance,14493,14493,797,0,5.499206513489271
+Missing GPA,Attended,371,371,164,0,44.20485175202156
+Missing GPA,No recorded attendance,832,832,351,0,42.1875

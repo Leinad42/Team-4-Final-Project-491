@@ -1,0 +1,5 @@
+bus_rider,tutoring,students,known_outcomes,failures,unknown_outcomes,failure_pct
+N,Attended,4447,4447,3007,0,67.61861929390601
+N,No recorded attendance,12128,12128,3498,0,28.842348284960423
+Y,Attended,6793,6793,4756,0,70.01324893272486
+Y,No recorded attendance,16632,16632,5119,0,30.778018278018276
