@@ -1,0 +1,55 @@
+{
+  "config_sha256": "168ab945e90f4563f7837563d99e34cc53ba3b872db01220f985929b1097a823",
+  "experiment_id": "120",
+  "server": "http://10.0.100.20:5000",
+  "batch_id": "f0d626bde3c2420a8077090e14f4aabf",
+  "runs": {
+    "protocol": "2500319f476647c687773b783f47df7b",
+    "association": "d8e1d0fe333d49ed850bba92a99443ca",
+    "bootstrap_000": "cf861dabd91445ba819d9266c96ddebf",
+    "bootstrap_001": "022520266109434ba3e1ab44c4d6432f",
+    "bootstrap_002": "04e3ce187bec464c8d5e2b54299df8d0",
+    "bootstrap_003": "31e48bd377cc4a4c9162e24caa66bcfe",
+    "bootstrap_004": "787bfb4219104e5b890120be4ce31f32",
+    "bootstrap_005": "d30e52e3a3344024a09f5fe85401f8e3"
+  },
+  "results": {
+    "0": {
+      "replicate": 0,
+      "run_id": "cf861dabd91445ba819d9266c96ddebf",
+      "difference_pp": -8.862962640869602,
+      "logged": true
+    },
+    "1": {
+      "replicate": 1,
+      "run_id": "022520266109434ba3e1ab44c4d6432f",
+      "difference_pp": -9.426819160824154,
+      "logged": true
+    },
+    "2": {
+      "replicate": 2,
+      "run_id": "04e3ce187bec464c8d5e2b54299df8d0",
+      "difference_pp": -7.894293490523673,
+      "logged": true
+    },
+    "3": {
+      "replicate": 3,
+      "run_id": "31e48bd377cc4a4c9162e24caa66bcfe",
+      "difference_pp": -8.588466457755255,
+      "logged": true
+    },
+    "4": {
+      "replicate": 4,
+      "run_id": "787bfb4219104e5b890120be4ce31f32",
+      "difference_pp": -9.350707466696855,
+      "logged": true
+    },
+    "5": {
+      "replicate": 5,
+      "run_id": "d30e52e3a3344024a09f5fe85401f8e3",
+      "difference_pp": -7.7252761659736
+    }
+  },
+  "protocol_uploaded": true,
+  "association_estimate": -8.622279023770226
+}

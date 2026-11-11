@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-11",
+  "old_method": "200 whole-student bootstrap refits with percentile interval",
+  "new_method": "one OLS Model B fit; student-clustered CR1 standard error; two-sided 95% t interval, G-1 df",
+  "reason": "Repeated MLflow connection interruptions during bootstrap logging; reduce remote operations. Method not selected based on a preferred verdict.",
+  "unchanged": "Hypothesis, population, controls, student partitions, A/B comparison, model selection and once-only final test",
+  "limits": "Large-independent-student-cluster approximation; school/tutor dependence and unmeasured confounding remain."
+}

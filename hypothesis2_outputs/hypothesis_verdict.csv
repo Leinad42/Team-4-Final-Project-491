@@ -1,0 +1,2 @@
+adjusted_bus_minus_nonbus_pp,clustered_se_pp,ci_lower_pp,ci_upper_pp,student_clusters,inference_df,observations,design_rank,uncertainty_method,verdict,unadjusted_difference_pp,run_id
+-8.622279023770226,0.49243654067548165,-9.587576247320888,-7.656981800219564,8386,8385,10831,28,student-clustered CR1; t interval with G-1 df,supported,-8.619908357257323,4370010a91424184bb14ca8fe6411a2f

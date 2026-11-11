@@ -1,0 +1,23 @@
+{
+  "config_sha256": "168ab945e90f4563f7837563d99e34cc53ba3b872db01220f985929b1097a823",
+  "experiment_id": "120",
+  "server": "http://10.0.100.20:5000",
+  "batch_id": "85b47cbfd60e4d2aaec3fad0dc0106fd",
+  "runs": {
+    "protocol": "587d30c93b8e40c791cebb095d2af714",
+    "clustered_association": "4370010a91424184bb14ca8fe6411a2f"
+  },
+  "results": {},
+  "protocol_uploaded": true,
+  "clustered_result": {
+    "adjusted_bus_minus_nonbus_pp": -8.622279023770226,
+    "clustered_se_pp": 0.49243654067548165,
+    "ci_lower_pp": -9.587576247320888,
+    "ci_upper_pp": -7.656981800219564,
+    "student_clusters": 8386,
+    "inference_df": 8385,
+    "observations": 10831,
+    "design_rank": 28,
+    "uncertainty_method": "student-clustered CR1; t interval with G-1 df"
+  }
+}

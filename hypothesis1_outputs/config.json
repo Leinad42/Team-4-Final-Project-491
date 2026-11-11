@@ -1,0 +1,21 @@
+{
+  "seed": 4913,
+  "cutoff": "2026-02-18",
+  "bootstraps": 200,
+  "C": 1.0,
+  "primary_metric": "log_loss",
+  "input_sha256": {
+    "students.csv": "19ed8dfb5dd18b7aff4c4d790fb71bfd716bbd3091a5fdf3d64a21c7336371a2",
+    "tutoring_referrals.csv": "11c2e572763be703b43487615d0e1e6454a05e5ddfa00fd174efd1f114b13207",
+    "tutoring_sessions.csv": "245e56a40a58b304804fe0b40207dddcf878245822d3be4e314385c4c9ca2388",
+    "term_grades.csv": "7c8ae96cddfe4b1cf18ab18a94c1a63003d1a476adf3bfab3d7b9ab94d29ac52",
+    "courses.csv": "38b68f1d31b69fc0766987cbb48b2121e271a8afe54b57430b580890592e7e07"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "sklearn": "1.9.1",
+    "mlflow": "3.18.0"
+  },
+  "python": "3.14.7"
+}

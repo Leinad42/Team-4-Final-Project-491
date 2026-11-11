@@ -1,0 +1,2 @@
+odds_ratio_per_10pp,ci_lower,ci_upper,valid_bootstraps,verdict
+0.7948124801378933,0.775293724016311,0.8146908748445006,200,supported
