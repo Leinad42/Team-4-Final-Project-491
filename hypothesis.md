@@ -1,4 +1,4 @@
-After cleaning the data and working through our initial questions, we narrowed the problem: students who received tutoring were failing at unexpectedly high rates, and we wanted to understand whether tutoring itself was associated with those outcomes or whether other factors — like attendance barriers — played a bigger role. Based on this narrowed problem, we came up with two hypotheses to test this:
+After cleaning the data and working through our initial questions, we narrowed the problem: students who received tutoring were failing at unexpectedly high rates, and we wanted to understand whether tutoring itself was associated with those outcomes or whether other factors — like attendance barriers — played a bigger role. That led us to two testable hypotheses:
 
 ## Revised hypotheses (Milestone 2, November 9, 2026)
 
