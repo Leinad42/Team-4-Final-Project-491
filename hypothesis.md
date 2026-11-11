@@ -1,4 +1,4 @@
-Based on the questions that we've created and from looking at the data sets we were given before and after cleaning, we have narrowed our specific problem further than the initial topic description did. This narrowing left us with the specific problem of seeing if tutoring was leading to higher fail rates or if other factors were playing a part. Based on this narrowed problem, we came up with two hypotheses to test this:
+After cleaning the data and working through our initial questions, we narrowed the problem: students who received tutoring were failing at unexpectedly high rates, and we wanted to understand whether tutoring itself was associated with those outcomes or whether other factors — like attendance barriers — played a bigger role. Based on this narrowed problem, we came up with two hypotheses to test this:
 
 ## Revised hypotheses (Milestone 2, November 9, 2026)
 
