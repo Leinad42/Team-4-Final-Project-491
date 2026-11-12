@@ -36,6 +36,13 @@ Problem Statement: A school is looking to improve its passing rates and the solu
 - `students_cleaned.csv` — Cleaned student records used for analysis. Missing prior-year GPAs are preserved rather than filled with guessed values.
 - `hypothesis.md` — Contains our specific problem that we narrowed from our topic and the two hypotheses we will be testing along with how we will test them.
 
+### Files for Milestone 2 Check ###
+- `hypothesis1_experements.ipynb` — Contains the experiments we ran to test our first hypothesis
+- `hypothesis2_experements.ipynb` — Contains the experiments we ran to test our second hypothesis
+- `hypothesis1_outputs` — A folder containing the outputs of our experiments pertaining to our first hypothesis once `hypothesis1_experiments.ipynb` has been run
+- `hypothesis2_outputs` — A folder containing the outputs of our experiments for our first hypothesis once `hypothesis2_experements.ipynb` has ran
+- `analysis_outputs` — A folder that contains the analysis of our initial outputs
+
 ## Reproducing the cleaning, exploration, and Milestone 2 experiments
 
 ### Environment and supplied data
