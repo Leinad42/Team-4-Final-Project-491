@@ -102,14 +102,9 @@ Numerical comparisons should use the saved metric tables and recorded settings; 
 
 ## AI Use Disclosure
 
-We used OpenAI Codex to generate the initial data-cleaning script,
-exploration code, and notebook; execute and check the code, assist
-with documentation, and interpreting exploratory results.
+We used OpenAI Codex to generate and revise data-cleaning scripts, exploration code, and experiment notebooks; assist with hypothesis refinement and test plans; configure MLflow tracking; troubleshoot execution and connection issues; review saved outputs against the rubric; interpret results; and prepare documentation and reproduction instructions.
 
-The generated files include clean_data.py, exploration.py,
-exploration.ipynb, and make_notebook.py. Cleaning logs, cleaned datasets,
-charts, and summary tables were produced by running this code against
-the supplied district datasets.
+AI-assisted files include `clean_data.py`, `exploration.py`, `exploration.ipynb`, `make_notebook.py`, `hypothesis1_experiments.ipynb`, and `hypothesis2_experiments.ipynb`. `hypothesis1_outputs`, `analysis_outputs`, and `hypothesis2_outputs` were produced by running each notebook.
 
 The team is responsible for reviewing the code, verifying the results,
 and understanding and explaining the submitted work.
