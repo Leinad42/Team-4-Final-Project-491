@@ -98,7 +98,16 @@ If the H2 clustered-association upload is interrupted, reconnect to the same exp
 
 Numerical comparisons should use the saved metric tables and recorded settings; MLflow assigns new run IDs on new runs. Confirm that IDs in the submitted validation and final-test tables appear in their corresponding exported run table. A matching score alone does not establish matching run provenance. Both analyses are observational and do not establish causal effects.
 
-
+### Conclusions ###
+* Hypothesis 1: referred students who attended more sessions before term 3 were less likely to fail (about 21% lower odds per +10 points of attendance)
+* Hypothesis 2: bus riders attended about 8.6 points less than similar non-bus riders
+* What was really going on: tutoring wasn't causing failures. The program enrolls students who are already struggling, so attendees will always look worse than everyone else. Among referred students, showing up goes with passing, and the no-late-bus rule keeps some from showing up
+* Recommendation: don't cut the funding. Instead:
+  - give bus riders a way home, with a late bus or sessions held during the school day
+  - watch attendance as it happens and follow up with students who start missing sessions
+  - judge the program by comparing referred students with each other, not with the whole school
+* Limits: these are associations, not proof of cause; motivation and outside help weren't measured
+* Keep tutoring, and remove the barriers to attending it.
 
 ## AI Use Disclosure
 
