@@ -98,6 +98,12 @@ If the H2 clustered-association upload is interrupted, reconnect to the same exp
 
 Numerical comparisons should use the saved metric tables and recorded settings; MLflow assigns new run IDs on new runs. Confirm that IDs in the submitted validation and final-test tables appear in their corresponding exported run table. A matching score alone does not establish matching run provenance. Both analyses are observational and do not establish causal effects.
 
+### Model Run IDs ###
+* H1: “After each term, monitor log loss on newly observed outcomes; trigger a review if it exceeds 0.39, compared with the held-out baseline of 0.326.”
+  - Run_ID: 0c6cd75236f2411c83b5d53b76a90cec
+* H2: “For each new comparable attendance cohort, monitor MAE; trigger a review if it exceeds 0.25 (25 percentage points), compared with the held-out baseline of 0.2084.”
+  - Run_ID: 4a6ad3b7c0f44e0291fcd4deaea9560f
+
 ### Conclusions ###
 * Hypothesis 1: referred students who attended more sessions before term 3 were less likely to fail (about 21% lower odds per +10 points of attendance)
 * Hypothesis 2: bus riders attended about 8.6 points less than similar non-bus riders
